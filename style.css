@@ -1,0 +1,84 @@
+div { width: 32px;
+    height: 32px;
+    position: relative;
+    animation: rotacao_str 4s infinite;        
+    }
+    @keyframes rotacao_str {
+        from {rotate: 0deg;}
+        to {rotate: 360deg;}
+    }
+
+
+body {
+    background-color: black;
+    height: 100 vw;
+}
+
+footer{
+    p {
+        text-align: right;
+    }
+}
+
+.estrela {
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    left: 1205px;
+    top: 570px;
+    animation: rotacao_str 3s infinite;
+}
+
+@keyframes rotacao_str {
+    0% {
+        rotate: 0deg;
+        color: red;
+    }
+
+    99.9% {
+        rotate: 360deg;
+        color: blue;
+    }
+}
+
+.footer {
+    position: fixed;
+    top: 200px;
+}
+
+.slot-machine {
+    top: 10;
+    left: 1205;
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+
+.slot {
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+    background-image: "spr/frame.png";
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    left: 1205;
+    top: 150;
+
+}
+
+.result {
+    color: white;
+}
+
+.creditos1 {
+    position: fixed;
+    top: 550px;
+    left: 10px;
+
+}
